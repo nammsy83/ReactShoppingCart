@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/clothingReact/static/css/main.76cbfb45.chunk.css",
-    "main.js": "/clothingReact/static/js/main.f4784c4e.chunk.js",
-    "main.js.map": "/clothingReact/static/js/main.f4784c4e.chunk.js.map",
+    "main.css": "/clothingReact/static/css/main.3be4c1b5.chunk.css",
+    "main.js": "/clothingReact/static/js/main.d1da8e71.chunk.js",
+    "main.js.map": "/clothingReact/static/js/main.d1da8e71.chunk.js.map",
     "runtime~main.js": "/clothingReact/static/js/runtime~main.8e393b49.js",
     "runtime~main.js.map": "/clothingReact/static/js/runtime~main.8e393b49.js.map",
-    "static/js/2.3310f33a.chunk.js": "/clothingReact/static/js/2.3310f33a.chunk.js",
-    "static/js/2.3310f33a.chunk.js.map": "/clothingReact/static/js/2.3310f33a.chunk.js.map",
+    "static/js/2.335f0c66.chunk.js": "/clothingReact/static/js/2.335f0c66.chunk.js",
+    "static/js/2.335f0c66.chunk.js.map": "/clothingReact/static/js/2.335f0c66.chunk.js.map",
     "index.html": "/clothingReact/index.html",
-    "precache-manifest.9ae6c6b6541e7be8ad5e2e0dbaa94674.js": "/clothingReact/precache-manifest.9ae6c6b6541e7be8ad5e2e0dbaa94674.js",
+    "precache-manifest.279b51b24d96482bc13b2007f038b284.js": "/clothingReact/precache-manifest.279b51b24d96482bc13b2007f038b284.js",
     "service-worker.js": "/clothingReact/service-worker.js",
-    "static/css/main.76cbfb45.chunk.css.map": "/clothingReact/static/css/main.76cbfb45.chunk.css.map"
+    "static/css/main.3be4c1b5.chunk.css.map": "/clothingReact/static/css/main.3be4c1b5.chunk.css.map"
   }
 }

@@ -5,7 +5,7 @@ import './homepage.styles.scss';
 
 function App() {
   return (
-    <div>
+    <div className="App">
         <HomePage />
     </div>
   );

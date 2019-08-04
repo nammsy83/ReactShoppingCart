@@ -4,8 +4,12 @@ import './header.styles.scss';
 import { ReactComponent as Logo } from '../../assets/crown.svg';
 import { auth } from '../../firebase/firebase.utils';
 import { connect } from 'react-redux'; // connect is a high order component and high order components take components as arguments and return a new component
+import CartIcon from '../cart-icon/cart-icon';
+import CartDropdown from '../cart-dropdown/cart-dropdown';
 
-const Header = ({ currentUser }) => (
+
+
+const Header = ({ currentUser, hidden }) => (
     <div className="header">
         <Link to="/" className="logo-container">
             <Logo className="logo" />
@@ -31,13 +35,19 @@ const Header = ({ currentUser }) => (
                         SIGN IN
                     </Link>
             }
+            <CartIcon />
 
         </div>
+        {
+            hidden ? null : <CartDropdown />
+        }
+
     </div>
 );
 
-const mapStateToProps = state => ({ // we get state object in this function. The state arg is the root reducer (top level root reducer)
-    currentUser: state.user.currentUser
+const mapStateToProps = ({ user: { currentUser }, cart: { hidden } }) => ({ // we get state object in this function. The state arg is the root reducer (top level root reducer)
+    currentUser,
+    hidden
 
 })
 

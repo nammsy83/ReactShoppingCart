@@ -21,13 +21,15 @@ export const removeCartItem = (cartItems, cartItemToRemove) => {
     );
 
     console.log(existingCartItem);
-
+    // if id doesnt match then keep the cartItems
     if (existingCartItem.quantity === 1) {
         return cartItems.filter(
             cartItem => cartItem.id !== cartItemToRemove.id
         )
     }
 
+
+    // if id matches then remove 1
     return cartItems.map(cartItem =>
         cartItem.id === cartItemToRemove.id
             ? { ...cartItem, quantity: cartItem.quantity - 1 }
